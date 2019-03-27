@@ -9,9 +9,9 @@ function checkYear() {
             if (isDivisibleBy400){
                 isLeapYear = true;
             }
-            else
-                isLeapYear = false;
         }
+        else
+            isLeapYear = true;
     }
     if (isLeapYear)
         alert(year + " la nam nhuan")
